@@ -2,7 +2,7 @@ export default class BubbleSort {
   sort(originalArray) {
     // Keep track of whether a swap took place or not 
     let swapped = false
-    // Clone of original array to help with testing
+    // Work with a clone of the original array
     const array = [...originalArray] 
 
     // Worst case, we'll need to make as many passes as there are elements in the array before it's sorted
