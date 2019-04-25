@@ -11,7 +11,7 @@ export default class BubbleSort {
       for (let j=0; j<array.length; j++) {
         if (array[j] > array[j + 1]) {
           const tmp = array[j + 1]
-          array[j+1] = array[j]
+          array[j + 1] = array[j]
           array[j] = tmp
 
           swapped = true
